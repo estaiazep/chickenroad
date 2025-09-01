@@ -11,7 +11,7 @@ canvas.height = size
 
 // Загружаем сигнал
 const signalImg = new Image()
-signalImg.src = "signalIMG.svg"
+signalImg.src = "signalIMG.png"
 
 // Настройки анимации
 const pieceCount = 50
@@ -93,3 +93,4 @@ signalImg.onload = () => {
 
 // Экспортим в глобал (можно вызвать в консоли)
 window.removeSignalImage = removeSignalImage
+
